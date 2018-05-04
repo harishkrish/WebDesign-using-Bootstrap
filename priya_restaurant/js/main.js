@@ -1,0 +1,26 @@
+$(document).ready(function(){
+    $("#hideAppetizers").click(function(){
+        $("#appetizers").hide(1000);
+    });
+    $("#showAppetizers").click(function(){
+        $("#appetizers").show(1000);
+    });
+    $("#hideMainCourse").click(function(){
+        $("#mainCourse").hide(1000);
+    });
+    $("#showMainCourse").click(function(){
+        $("#mainCourse").show(1000);
+    });
+    $("#hideCurry").click(function(){
+        $("#curry").hide(1000);
+    });
+    $("#showCurry").click(function(){
+        $("#curry").show(1000);
+    });
+    $("#hideDesert").click(function(){
+        $("#desert").hide(1000);
+    });
+    $("#showDesert").click(function(){
+        $("#desert").show(1000);
+    });
+});
